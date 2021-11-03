@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #047;
+    font-family: 'Roboto' , sans-serif;
+    
+}
+header img{
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+header #Pesquisa{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+
+}
+header #Busca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+
+}
+header #Busca input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 0;
+    color:black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 12px;
+}
+header #Filtro{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border: solid 2px;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    transition: 0.3s;
+    font-weight: 700;
+}
+header #Filtro img{
+    width: 28px;
+    height: 28px;
+    margin: 0 10px 0 10px;
+}
+header #Filtro:hover{
+    background: #025a9e;
+}
+main #banner{
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px 0 20px 0;
+
+}
+main #banner #titulo{
+    font-size: 5px;
+    margin-top: 10px;
+
+}
+main #banner p{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:30px;
+    color: #323232;
+    font-weight: 700;
+}
+main #banner img{
+    width: 100%;
+    max-height: 700px;
+}
+main #banner #pedido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -98px 80px 0 80px;
+    z-index: 2;
+    
+
+}
+main #banner #pedido #promocao p{
+    color: #fff;
+    max-width: 360px;
+    font-size: 24px;
+
+    
+}
+main  #banner #pedido button{
+    background-color:#047; ;
+    min-height: 60px;
+    min-width: 160px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    transition: 0.3s;
+}
+main  #banner #pedido button:hover, header #Filtro:hover{
+    cursor: pointer;
+    background: #025a9e;
+}
+main #conteudo{
+    max-width: 90%;
+    margin: 20px auto;
+}
+main #conteudo #titulo{
+    font-size: 24px;
+    color: #323232;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    
+
+}
+main #conteudo #produto{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+}
+main #conteudo #produto .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    width: 48%;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+}main #conteudo #produto .card #Camisa {
+   min-width: 250px;
+    height: 100%;
+}
+main #conteudo #produto .card #Camisa img{
+    max-width: 100%;
+    height: 100%;
+   
+}
+main #conteudo #produto .card .item{
+    margin:0 5px 0 10px;
+    width: 220px;
+    height: 100%;
+   
+   
+}
+main #conteudo #produto .card .item p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto' , sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+main #conteudo #produto .card .item .descricao{
+    font-weight: 400;
+}
+main #conteudo #produto #compra{
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+    background: #047;
+}
+
+main #conteudo #produto #compra{
+    width: 140px;
+    height: 35px;
+    align-items: center;
+    transition: 0.3s;
+
+}
+main #conteudo #produto #compra:hover {
+    background: rgb(27, 27, 27);
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #047;
+}
+footer img{
+    width: 130px;
+}
+footer #e-mail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+footer #cadastrar {
+border: solid 2px;
+border-radius: 5px;
+height: 45px;
+width: 200px;
+color: #fff;
+font-size: 18px;
+font-weight: 700;
+margin: 20px 0;
+cursor: pointer;
+background: #047;
+}
+footer #cadastrar{
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    background: #047;
+    transition: 0.3s;
+}
+footer #e-mail #cadastrar:hover{
+    background:#025a9e; 
+}
+footer #e-mail input{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #000;
+    font-size: 18px;
+    padding-left: 12px;
+}
+footer #sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #sociais img{
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
